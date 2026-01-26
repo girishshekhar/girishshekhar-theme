@@ -1,0 +1,25 @@
+
+menu:
+  main:
+    - identifier: writing
+      name: Writing
+      url: http://localhost:1314/blog
+      weight: 5
+    - identifier: projects
+      name: Projects
+      url: http://localhost:1313/projects/
+      weight: 9
+    - identifier: speaking
+      name: Speaking
+      url: http://localhost:1313/speaking/
+      weight: 9
+    - identifier: copyright
+      name: Copyright
+      url: http://localhost:1313/copyright/
+      weight: 10
+    - name: Search
+      url: http://localhost:1314/blog/search/
+      weight: 7
+    - name: Tags
+      url: http://localhost:1314/blog/tags/
+      weight: 8 

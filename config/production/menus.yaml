@@ -1,0 +1,25 @@
+
+menu:
+  main:
+    - identifier: writing
+      name: Writing
+      url: https://girishshekhar.github.io/blog
+      weight: 5
+    - identifier: projects
+      name: Projects
+      url: https://girishshekhar.github.io/projects/
+      weight: 9
+    - identifier: speaking
+      name: Speaking
+      url: https://girishshekhar.github.io/speaking/
+      weight: 9
+    - identifier: copyright
+      name: Copyright
+      url: https://girishshekhar.github.io/copyright/
+      weight: 10
+    - name: Search
+      url: https://girishshekhar.github.io/blog/search/
+      weight: 7
+    - name: Tags
+      url: https://girishshekhar.github.io/blog/tags/
+      weight: 8 
