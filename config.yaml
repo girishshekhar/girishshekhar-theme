@@ -1,5 +1,9 @@
+copyright: "© {{ now.Format \"2006\" }} Girish Shekhar. All rights reserved."
 params:
   socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/girishshekhar"
     - name: linkedin
       url: "https://www.linkedin.com/in/girishshekhar"
   footer:
@@ -7,7 +11,19 @@ params:
 
 menu:
   main:
+    - identifier: writing
+      name: Writing
+      url: https://girishshekhar.github.io/blog
+      weight: 5
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 9
+    - identifier: speaking
+      name: Speaking
+      url: /speaking/
+      weight: 9
     - identifier: copyright
       name: Copyright
       url: /copyright/
-      weight: 9
+      weight: 10
