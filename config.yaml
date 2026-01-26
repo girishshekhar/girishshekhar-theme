@@ -1,4 +1,14 @@
 copyright: "© {{ now.Format \"2006\" }} Girish Shekhar. All rights reserved."
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
 params:
   socialIcons:
     - name: github
@@ -8,6 +18,40 @@ params:
       url: "https://www.linkedin.com/in/girishshekhar"
   footer:
     hideCopyright: false
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowAllPagesInArchive: true
+    ShowPageNums: true
+    ShowToc: true
+    # comments: false
+    
+  assets:
+    disableHLJS: true
+    markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+taxonomies:
+      category: categories
+      tag: tags
+      series: series
 
 menu:
   main:
@@ -39,3 +83,27 @@ outputs:
     - HTML
     - RSS
     - JSON # Tells every site to generate its own local search index
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true
