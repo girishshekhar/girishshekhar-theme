@@ -9,6 +9,11 @@ params:
   footer:
     hideCopyright: false
 
+languages:
+  en:
+    params:
+      footer:
+        hideCopyright: false
 menu:
   main:
     - identifier: writing
