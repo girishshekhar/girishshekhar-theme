@@ -15,9 +15,11 @@ main:
     name: Copyright
     url: https://girishshekhar.github.io/copyright/
     weight: 10
-  - name: Search
+  - identifier: search
+    name: Search
     url: https://girishshekhar.github.io/blog/search/
     weight: 7
-  - name: Tags
+  - identifier: tags
+    name: Tags
     url: https://girishshekhar.github.io/blog/tags/
     weight: 8 
