@@ -27,3 +27,15 @@ menu:
       name: Copyright
       url: /copyright/
       weight: 10
+    - name: Search
+      url: /search/
+      weight: 7
+    - name: Tags
+      url: /tags/
+      weight: 8 
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # Tells every site to generate its own local search index
