@@ -10,3 +10,11 @@ header .toggle-mode {
   background: none;
   border: none;
 }
+
+#recent-posts li {
+  margin-bottom: 0.5rem;
+}
+
+#recent-posts a {
+  text-decoration: underline;
+}

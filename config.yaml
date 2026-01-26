@@ -1,0 +1,13 @@
+params:
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/girishshekhar"
+  footer:
+    hideCopyright: false
+
+menu:
+  main:
+    - identifier: copyright
+      name: Copyright
+      url: /copyright/
+      weight: 9
