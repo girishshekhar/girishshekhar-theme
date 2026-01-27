@@ -3,6 +3,14 @@ main:
     name: Writing
     url: http://localhost:1314/blog
     weight: 5
+  - identifier: search
+    name: Search
+    url: http://localhost:1314/blog/search/
+    weight: 7
+  - identifier: tags
+    name: Tags
+    url: http://localhost:1314/blog/tags/
+    weight: 8 
   - identifier: projects
     name: Projects
     url: http://localhost:1313/projects/
@@ -10,14 +18,8 @@ main:
   - identifier: speaking
     name: Speaking
     url: http://localhost:1313/speaking/
-    weight: 9
+    weight: 10
   - identifier: copyright
     name: Copyright
     url: http://localhost:1313/copyright/
-    weight: 10
-  - name: Search
-    url: http://localhost:1314/blog/search/
-    weight: 7
-  - name: Tags
-    url: http://localhost:1314/blog/tags/
-    weight: 8 
+    weight: 11
