@@ -26,7 +26,7 @@ params:
       url: "https://www.linkedin.com/in/girishshekhar"
   footer:
     hideCopyright: false
-    text : "**Opinions expressed are solely my own and do not express the views or opinions of my employer. Any errors or misrepresentations are my own responsibility.**"
+    text : "<br/> *Opinions expressed are solely my own and do not express the views or opinions of my employer. Any errors or misrepresentations are my own responsibility.*"
     defaultTheme: auto
     # disableThemeToggle: true
     ShowShareButtons: true
